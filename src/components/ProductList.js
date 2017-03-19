@@ -20,7 +20,7 @@ const ProductList = ({ products, addToCart }) => {
   return (
     <div style={styles.products}>
       {products.map(product =>
-        <div className="thumbnail" style={styles.product} key={product.id}>
+        <div className="thumbnail product" style={styles.product} key={product.id}>
           <img src={product.image} alt={product.name} />
           <div className="caption">
             <h4>{product.name}</h4>
